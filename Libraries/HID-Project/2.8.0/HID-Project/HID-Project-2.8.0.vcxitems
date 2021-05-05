@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding ="utf-8" ?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" >
+  <PropertyGroup Label="Globals" >
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{9d0972df-6966-4c3e-abe0-3175977fdf0a}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\MultiReport\AbsoluteMouse.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\MultiReport\Consumer.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\MultiReport\Gamepad.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\MultiReport\ImprovedKeyboard.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\MultiReport\ImprovedMouse.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\MultiReport\NKROKeyboard.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\MultiReport\SurfaceDial.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\MultiReport\System.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\port\samd.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\SingleReport\BootKeyboard.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\SingleReport\BootMouse.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\SingleReport\RawHID.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\SingleReport\SingleAbsoluteMouse.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\SingleReport\SingleConsumer.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\SingleReport\SingleGamepad.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\SingleReport\SingleNKROKeyboard.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\SingleReport\SingleSystem.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\HID-Project.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\HID-Settings.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\HID-APIs\AbsoluteMouseAPI.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\HID-APIs\AbsoluteMouseAPI.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\HID-APIs\ConsumerAPI.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\HID-APIs\ConsumerAPI.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\HID-APIs\DefaultKeyboardAPI.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\HID-APIs\DefaultKeyboardAPI.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\HID-APIs\GamepadAPI.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\HID-APIs\GamepadAPI.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\HID-APIs\KeyboardAPI.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\HID-APIs\KeyboardAPI.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\HID-APIs\MouseAPI.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\HID-APIs\MouseAPI.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\HID-APIs\NKROKeyboardAPI.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\HID-APIs\NKROKeyboardAPI.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\HID-APIs\SurfaceDialAPI.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\HID-APIs\SurfaceDialAPI.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\HID-APIs\SystemAPI.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\HID-APIs\SystemAPI.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\HID-APIs\TeensyKeyboardAPI.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\HID-APIs\TeensyKeyboardAPI.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\HID-APIs\TeensyKeylayouts.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\KeyboardLayouts\ImprovedKeylayouts.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\KeyboardLayouts\ImprovedKeylayoutsBE.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\KeyboardLayouts\ImprovedKeylayoutsCH.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\KeyboardLayouts\ImprovedKeylayoutsDE.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\KeyboardLayouts\ImprovedKeylayoutsDK.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\KeyboardLayouts\ImprovedKeylayoutsES.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\KeyboardLayouts\ImprovedKeylayoutsFR.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\KeyboardLayouts\ImprovedKeylayoutsIT.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\KeyboardLayouts\ImprovedKeylayoutsNO.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\KeyboardLayouts\ImprovedKeylayoutsPT.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\KeyboardLayouts\ImprovedKeylayoutsSE.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\KeyboardLayouts\ImprovedKeylayoutsUK.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\KeyboardLayouts\ImprovedKeylayoutsUS.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\MultiReport\AbsoluteMouse.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\MultiReport\Consumer.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\MultiReport\Gamepad.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\MultiReport\ImprovedKeyboard.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\MultiReport\ImprovedMouse.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\MultiReport\NKROKeyboard.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\MultiReport\SurfaceDial.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\MultiReport\System.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\SingleReport\BootKeyboard.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\SingleReport\BootMouse.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\SingleReport\RawHID.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\SingleReport\SingleAbsoluteMouse.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\SingleReport\SingleConsumer.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\SingleReport\SingleGamepad.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\SingleReport\SingleNKROKeyboard.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\SingleReport\SingleSystem.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="$(MSBuildThisFileDirectory)keywords.txt" />
+<Text Include="$(MSBuildThisFileDirectory)library.properties" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)header.jpg" />
+<None Include="$(MSBuildThisFileDirectory)Readme.md" />
+  </ItemGroup>
+</Project>
